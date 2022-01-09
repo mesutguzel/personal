@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesut Doganguzel</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand|Asap:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+
+<body onload="hideLoadingDiv(), displayLoadingDiv(),musicOn()">
+    <!-- navbar -->
+    <nav class="navbar">
+
+        <a href="#pictures" class="navbar-brand">
+            <!-- <i class="fab fa-maxcdn"></i> -->
+            <i class="fab fa-slideshare" id="maske"></i>
+            <!-- <i class="fas fa-spider" id="maske"></i> -->
+            <!-- <i class="fas fa-mask" id="maske"></i> -->
+            <!-- <i class="fab fa-gofore"></i>  -->
+        </a>
+
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <!-- <li><a href="#blog">blog</a></li> -->
+            <li><a href="#contact1">contact</a></li>
+            <li><a id="social" ; href="https://www.linkedin.com/in/mesut-doganguzel-b5a04618b/" ; target="blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a id="social" ; href="https://www.instagram.com/mesutguzel06/" ; target="blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a id="social" ; href="https://twitter.com/MesutGuzel1" ; target="blank"><i class="fab fa-twitter"></i></a></li>
+
+        </ul>
+        <button class="navbar-toggler">
+            <span></span>
+          </button>
+    </nav>
+
+
+
+
+    <!-- home -->
+    <div id="home">
+
+        <div class="streetcircle">
+            <div class="hoodie"></div>
+        </div>
+        <!-- <div class="animation">
+            <h1><span>Hello, my name is </span><span> Mesut Doganguzel.</span></h1>
+
+        </div> -->
+
+        <div class="name1" id="name1" style="visibility: visible">
+            <div class="spinner-wrap" id="LOADING">
+                <div class="spinner">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <h1 id="LOADING1" style="visibility: hidden;" data-text="Mesut doganguzel"><span>Mesut doganguzel</span></h1>
+
+        </div>
+        <div class="button">
+            <a href="#portfolio" class="btn-flip" data-back="Portfolio" data-front="Go To"></a>
+        </div>
+
+        <div style="visibility:hidden">
+            <audio id="blackmirror" autoplay loop>
+                <source src="audio/blackmirror.mp3">
+            </audio>
+        </div>
+
+    </div>
+
+    <!-- about -->
+
+    <section id="about" class="container-fluid">
+
+        <div class="row section-banner">
+            <div class="col-md-offset-3 col-md-12 text-center">
+                <div>
+                    <span class="line about"></span>
+                    <span class="section-title about">about</span>
+                    <span class="line about"></span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row max">
+
+            <div class="col-sm-4 text-center">
+                <div class="desc">
+                    <div class="icon-me"><i class="fa fa-user"></i></div>
+                    <p>i'm a developer based in canada. with a focus on creating a smooth and pleasant user experience, i create beautiful, user-friendly websites.</p>
+                </div>
+            </div>
+
+            <div class="col-sm-4 text-center">
+                <div class="desc">
+                    <div class="icon-me"><i class="fas fa-graduation-cap"></i></div>
+                    <p>after working in the design and build industry for almost a year, i decided a couple of years ago to make a change and pursue a career as a frontend developer. since then i've started a diploma and gone on to build my own projects
+                        and deepen my knowledge of different languages and technologies.</p>
+                </div>
+            </div>
+
+            <div class="col-sm-4 text-center">
+                <div class="desc">
+                    <div class="icon-me"><i class="fa fa-rocket"></i></div>
+                    <p> i'm a driven individual and constantly looking to expand my skillset. i've been able to transfer my problem-solving skills and apply them to coding. i have a passion for creating websites which are intuitive and enjoyable to use. i'm
+                        based in ottawa, canada.</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="skill">
+            <h2 id="second-h2">Skills</h2>
+            <ul class="skill-list">
+                <li><i class="fab fa-html5"></i>
+                    <p>HTML</p>
+                </li>
+                <li><i class="fab fa-css3-alt"></i>
+                    <p>CSS</p>
+                </li>
+                <li><i class="fab fa-js-square"></i>
+                    <p>JS</p>
+                </li>
+                <li><i class="fab fa-java"></i>
+                    <p>Java</p>
+                </li>
+                <li><i class="fab fa-github"></i>
+                    <p>Git</p>
+                </li>
+                <li><i class="fas fa-database"></i>
+                    <p>SQL</p>
+                </li>
+                <li><i class="fab fa-cuttlefish"></i>
+                    <p>C</p>
+                </li>
+                <li><i class="fas fa-chevron-left"></i><i class="fas fa-chevron-left"></i>
+                    <p>Flutter</p>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+
+    <!-- portfolio -->
+    <section class="port">
+        <div id="portfolio">
+            <div class="portfolio">
+                <span class="line about"></span>
+                <span class="section-title about">portfolio</span>
+                <span class="line about"></span>
+
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h2 class="text">Snake Game for PC</h2>
+
+                        <a class="snake" href="snake.html"><img src="images/snake.jpeg"></a>
+
+                    </div>
+                    <div class="col-sm-4">
+                        <h2 class="text">Pairs Game for PC</h2>
+
+                        <a class="snake" href="pairsgame.html"><img src="images/pairsgame.png"></a>
+
+
+                    </div>
+                    <div class="col-sm-4">
+                        <h2 class="text">Tic Tac Toe Game for PC</h2>
+                        <a class="snake" href="tictac.html"><img src="images/tictac.jpg"></a>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h2 class="text">Rock Paper Scissors Game</h2>
+
+                        <a class="snake" href="rps.html"><img src="images/rps.PNG"></a>
+
+                    </div>
+                    <div class="col-sm-4">
+                        <h2 class="text">Tips for Working from Home</h2>
+
+                        <a class="snake" href="https://newcomersincanada.ca/life-during-covid-19/blog-tips-of-working-from-home/" target="_blank"><img src="images/working.png"></a>
+
+                    </div>
+                    <div class="col-sm-4">
+                        <!-- <h2 class="text">Tic Tac Toe Game for PC</h2>
+                        <a class="snake" href="tictac.html" target="_blank"><img src="images/tictac.jpg"></a> -->
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- blog -->
+    <!-- <section class="blog1">
+        <div id="blog">
+            <div class="blog">
+                <span class="line about"></span>
+                <span class="section-title about">blog</span>
+                <span class="line about"></span>
+
+                <div class="container-fluid">
+                    <div class="row">
+
+                        <div class="col-sm-4">
+
+                        </div>
+                        <div class="col-sm-4">
+                            <h3>Column 3</h3>
+    
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section> -->
+
+    <!-- contact -->
+    <section class="contactcharacter pictures" id="contact1">
+        <div class="contentwrapper" id="contact">
+            <div class="contact1">
+                <span class="line about"></span>
+                <span class="section-title about">contact</span>
+                <span class="line about"></span>
+            </div>
+            <div class="character">
+                <div class="body"></div>
+                <div class="arm"></div>
+                <div class="head">
+                    <div class="eyes"></div>
+                </div>
+                <div class="mug">
+                    <div class="steam"></div>
+                    <div class="steam"></div>
+                    <div class="steam"></div>
+                </div>
+                <div class="contactme">
+                    <div class="arrow"></div>
+                </div>
+                <div class="thoughts">
+
+                    <div class="abouttype">
+                        <p>My name is Mesut Doganguzel. I am a...</p>
+                        <div class="imacontainer"><span class="ima"></span></div>
+                        <p>I live in Ottawa, Canada. I like to craft solutions.</p>
+
+                    </div>
+
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="contact">
+            <span class="closer"></span>
+            <form class="contact-form" action="contactform.php" method="post">
+                <input class="input name" name="name" type="text" value="" placeholder="name">
+                <input class="input email" name="email" type="email" value="" placeholder="email">
+                <textarea class="input message" name="message" placeholder="your awesome message!"></textarea>
+                <button name="submit" type="submit" value="submit" class="submit">Submit</button>
+            </form>
+        </div>
+
+    </section>
+
+    <div class="container" id="pictures">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="image image1"></div>
+                        <div class="info">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="image image2"></div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+
+                    <div class="card">
+                        <div class="image image3"></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="image image4"></div>
+                        <div class="info">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="image image5"></div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+
+                    <div class="card">
+                        <div class="image image6"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <svg>
+        <filter id="wavy1">
+          <feturbulence x="0" y="0" baseFrequency="0.2" numOctaves="5" seed="1"></feturbulence>
+          <feDisplacementMap in="SourceGraphic" scale="20" />
+        </filter>
+      </svg>
+    <svg>
+        <filter id="wavy2">
+          <feturbulence x="0" y="0" baseFrequency="0.02" numOctaves="5" seed="1"></feturbulence>
+          <feDisplacementMap in="SourceGraphic" scale="20" />
+        </filter>
+      </svg>
+    <svg>
+        <filter id="wavy3">
+          <feturbulence x="0" y="0" baseFrequency="0.1" numOctaves="5" seed="1"></feturbulence>
+          <feDisplacementMap in="SourceGraphic" scale="20" />
+        </filter>
+      </svg>
+
+    <!-- footer -->
+    <footer>
+        <div>
+            <h4 id="footer"><i class="far fa-copyright"></i> 2021 Mesut Doganguzel</h4>
+        </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
